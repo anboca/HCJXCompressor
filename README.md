@@ -1,4 +1,5 @@
 # HCJXCompressor
-Html Css Js Xml file compressor, based on htmlcompressor and YUICompressor.
+GUI for htmlcompressor and YUICompressor.
+Compress Html, Css, Js and Xml files.
 
-Only drag and drop files and folders to compress them.
+Only drag and drop files or folders to compress them.
