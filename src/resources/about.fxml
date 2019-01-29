@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="450.0" style="-fx-background-color: #ffffcc;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.anboca.hcjxcompresor.controller.AboutController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Created By:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="125.0" layoutY="14.0" text="Andres Botia Carreño">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="45.0" text="Version:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="125.0" layoutY="45.0" text="0.4">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="80.0" text="Powered by:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="125.0" layoutY="80.0" text="htmlcompressor, YUICompressor">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="112.0" text="Thanks to:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="125.0" layoutY="112.0" prefHeight="162.0" prefWidth="307.0" style="-fx-background-color: #ffffcc;" text="Icons made by: Gregor Cresnar, Egor Rumyantsev, monkik. Links: https://www.flaticon.com/authors/gregor-cresnar    https://www.flaticon.com/authors/egor-rumyantsev    https://www.flaticon.com/authors/monkik" wrapText="true" />
+   </children>
+</AnchorPane>

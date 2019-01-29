@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="300.0" prefWidth="450.0" style="-fx-background-color: ffffcc;" stylesheets="@main.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.anboca.hcjxcompresor.controller.SettingsController">
+   <children>
+      <CheckBox fx:id="replacesFilesCheckBox" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Replace Files" />
+      <CheckBox fx:id="cHtmlCheckBox" layoutX="14.0" layoutY="44.0" mnemonicParsing="false" text="Compress Html" />
+      <CheckBox fx:id="cCssCheckBox" layoutX="14.0" layoutY="76.0" mnemonicParsing="false" text="Compress Css" />
+      <CheckBox fx:id="cJsCheckBox" layoutX="14.0" layoutY="108.0" mnemonicParsing="false" text="Compress Js" />
+      <CheckBox fx:id="cXmlCheckBox" layoutX="14.0" layoutY="141.0" mnemonicParsing="false" text="Compress Xml" />
+   </children>
+</AnchorPane>

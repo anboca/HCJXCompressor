@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Created-By: AnBoCa
+Main-Class: com.anboca.hcjxcompresor.main.Main
+Name: com/anboca/hcjxcompressor
+Specification-Title: Html, Css, Js, Xml file Compressor
+Specification-Version: 1.5
+Specification-Vendor: AnBoCa Apps

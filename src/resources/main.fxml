@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="450.0" style="-fx-background-color: white;" stylesheets="@main.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.anboca.hcjxcompresor.controller.MainController">   <children>
+      <VBox alignment="CENTER" layoutX="0.0" prefHeight="200.0" prefWidth="450.0" style="-fx-background-color: #ffffcc;">
+         <children>
+            <ImageView fx:id="dragDropImage" fitHeight="128.0" fitWidth="128.0" layoutX="60.0" layoutY="10.0" onDragDropped="#onDragDropped" onDragOver="#dragOver" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@zip.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <Button fx:id="settingsButton" layoutX="395.0" layoutY="250.0" mnemonicParsing="false" onAction="#openSettings" />
+      <Button fx:id="aboutButton" layoutX="325.0" layoutY="250.0" mnemonicParsing="false" onAction="#openAbout" />
+      
+      
+   </children>
+</AnchorPane>

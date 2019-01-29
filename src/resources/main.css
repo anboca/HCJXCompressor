@@ -1,0 +1,27 @@
+.jfx-snackbar-content{
+    -fx-background-color: #000000;
+    -fx-text-color: #ffffff;
+}
+.jfx-snackbar-toast {
+    -fx-text-fill: WHITE;
+}
+.check-box {
+    selected-box-color: black;
+    box-color: black;
+    mark-color: white;
+}
+.check-box:selected > .box {
+    /* background color for selected checkbox */
+    -fx-background-color: selected-box-color;
+}
+
+.check-box > .box {
+    /* background color of unselected checkbox */
+    -fx-background-color: box-color;
+}
+
+.check-box:selected > .box > .mark,
+.check-box:indeterminate  > .box > .mark {
+    /* modify mark color */
+    -fx-background-color: mark-color;
+}
